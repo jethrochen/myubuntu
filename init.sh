@@ -17,7 +17,7 @@ sudo fc-cache -f -v
 echo "Enjoy"
 
 # set vimrc
-ln -fs vimrc home/{$USER}/.vimrc
+ln -fs `pwd`/vimrc home/{$USER}/.vimrc
 sudo ln -fs /home/{$USER}/.vimrc /root/.vimrc
 sudo ln -fs /home/{$USER}/.vim /root/.vim
 
