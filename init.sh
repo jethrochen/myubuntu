@@ -12,12 +12,13 @@ sudo apt-get upgrade
 echo "Start install"
 sudo mkdir -p /usr/share/fonts/truetype/custom
 echo "Installing font"
-sudo mv /fonts/Monaco_Linux.ttf /usr/share/fonts/truetype/custom/
+sudo mv fonts/Monaco_Linux.ttf /usr/share/fonts/truetype/custom/
 sudo fc-cache -f -v
 echo "Enjoy"
 
 # set vimrc
-ln -fs `pwd`/vimrc home/{$USER}/.vimrc
+wget -c https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+ln -fs `pwd`/vimrc /home/{$USER}/.vimrc
 sudo ln -fs /home/{$USER}/.vimrc /root/.vimrc
 sudo ln -fs /home/{$USER}/.vim /root/.vim
 
