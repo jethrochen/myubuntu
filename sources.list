@@ -34,17 +34,17 @@
 # deb-src http://mirror.dlut.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
 # deb-src http://mirror.dlut.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
 # 
-# shangjiao
-deb http://ftp6.sjtu.edu.cn/ubuntu/ precise main multiverse restricted universe
-deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
-deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
-deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
-deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
-deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise main multiverse restricted universe
-deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
-deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
-deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
-deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
+# # shangjiao
+# deb http://ftp6.sjtu.edu.cn/ubuntu/ precise main multiverse restricted universe
+# deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
+# deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
+# deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
+# deb http://ftp6.sjtu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
+# deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise main multiverse restricted universe
+# deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
+# deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
+# deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
+# deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
 
 # # xidian 
 # deb http://ftp6.xdlinux.info/ubuntu/ precise main multiverse restricted universe
@@ -117,6 +117,19 @@ deb-src http://ftp6.sjtu.edu.cn/ubuntu/ precise-updates main multiverse restrict
 # deb-src http://mirrors6.ustc.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
 # deb-src http://mirrors6.ustc.edu.cn/ubuntu/ precise-security main multiverse restricted universe
 # deb-src http://mirrors6.ustc.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
+
+# lanzhoudaxue
+deb http://mirror.lzu.edu.cn/ubuntu/ precise main multiverse restricted universe
+deb http://mirror.lzu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
+deb http://mirror.lzu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
+deb http://mirror.lzu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
+deb http://mirror.lzu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
+deb-src http://mirror.lzu.edu.cn/ubuntu/ precise main multiverse restricted universe
+deb-src http://mirror.lzu.edu.cn/ubuntu/ precise-backports main multiverse restricted universe
+deb-src http://mirror.lzu.edu.cn/ubuntu/ precise-proposed main multiverse restricted universe
+deb-src http://mirror.lzu.edu.cn/ubuntu/ precise-security main multiverse restricted universe
+deb-src http://mirror.lzu.edu.cn/ubuntu/ precise-updates main multiverse restricted universe
+
 
 # IPv4 sources
 # 163 source

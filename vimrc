@@ -13,6 +13,12 @@ Bundle 'oceandeep'
 " Syntax highlight for Markdown text files
 Bundle 'Markdown'
 
+" java
+Bundle 'Vim-JDE'
+
+" python auto-complete
+Bundle 'Pydiction'
+
 syntax on " 自动语法高亮 
 " colorscheme editplus
 colorscheme oceandeep " 设定配色方案 
@@ -46,13 +52,13 @@ set smartindent " 开启新行时使用智能自动缩进
 set laststatus=2 " 显示状态栏 (默认值为 1, 无法显示状态栏) 
 set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:%l/%L%)\ 
 " " 设置在状态行显示的信息 
-" set foldenable " 开始折叠 
-" set foldmethod=syntax " 设置语法折叠 
-" set foldmethod=marker " 设置标记折叠 
-" set foldcolumn=0 " 设置折叠区域的宽度 
+set foldenable " 开始折叠 
+set foldmethod=syntax " 设置语法折叠 
+set foldmethod=marker " 设置标记折叠 
+set foldcolumn=0 " 设置折叠区域的宽度 
 " setlocal foldlevel=1 " 设置折叠层数为 
-" set foldclose=all " 设置为自动关闭折叠 
-" nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR> 
+set foldclose=all " 设置为自动关闭折叠 
+nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR> 
 " 用空格键来开关折叠 
 "
 "
